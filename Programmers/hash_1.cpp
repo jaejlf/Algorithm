@@ -1,4 +1,5 @@
 //완주하지 못한 선수
+#include <algorithm>
 #include <string>
 #include <vector>
 
@@ -6,21 +7,14 @@ using namespace std;
 
 string solution(vector<string> participant, vector<string> completion) {
     string answer = "";
+    sort(participant.begin(), participant.end());
+    sort(completion.begin(), completion.end());
 
-    for (int i = 0; i < participant.size(); i++) {
-        for (int j = 0; j < completion.size(); j++) {
-            if (participant[i] == completion[j]) {
-                participant.erase(participant.begin() + i);
-                completion.erase(completion.begin() + j);
-                i--;
-                break;
-            }
+    for (int i = 0; i < completion.size(); i++) {
+        if (participant[i] != completion[i]) {
+            return participant[i];
         }
     }
-
-    if (!participant.empty()) {
-        answer = participant.front();
-    }
-
-    return answer;
+    
+    return participant[participant.size() - 1];
 }
