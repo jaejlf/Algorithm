@@ -5,7 +5,6 @@ using namespace std;
 string s = "moo";
 
 void moo(int n, int k, int len) {
-    //k++;
     int mid_len = k + 3;
     int full_len = len * 2 + mid_len;
 
@@ -35,6 +34,6 @@ int main() {
     cin >> n;
 
     int k = 1;
-    int full_len = 3;
-    moo(n, k, full_len);
+    int len = 3;
+    moo(n, k, len);
 }
