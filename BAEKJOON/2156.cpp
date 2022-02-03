@@ -1,7 +1,6 @@
 //포도주 시식
 #include <algorithm>
 #include <iostream>
-#include <vector>
 
 using namespace std;
 
