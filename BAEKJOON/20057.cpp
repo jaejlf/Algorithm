@@ -37,7 +37,7 @@ bool checkRange(int r, int c) {
     }
 }
 
-void tornado(int r, int c) {
+void spread(int r, int c) {
     int amount = Map[r][c];
     Map[r][c] = 0;
 
@@ -107,7 +107,7 @@ void moveTornado() {
                 r = r + dir[d][0];
                 c = c + dir[d][1];
 
-                tornado(r, c);
+                spread(r, c);
 
                 if (r == 0 && c == 0) return;
             }
