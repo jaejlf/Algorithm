@@ -9,4 +9,11 @@
         "cstdlib": "cpp",
         "functional": "cpp"
     },
+    "java.project.sourcePaths": [
+        "solving",
+        "Programmers/고득점 Kit",
+        "Basic_Practice",
+        "BAEKJOON",
+        "Programmers/모든 문제"
+    ],
 }
