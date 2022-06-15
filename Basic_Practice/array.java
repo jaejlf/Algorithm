@@ -1,4 +1,3 @@
-import java.io.*;
 import java.util.*;
 
 public class array {
@@ -6,8 +5,8 @@ public class array {
 
         ArrayList<Integer> integers1 = new ArrayList<Integer>(); // 타입 지정
         ArrayList<Integer> integers2 = new ArrayList<>(); // 타입 생략
-        ArrayList<Integer> integers3 = new ArrayList<>(10); // 초기 용량(Capacity) 설정
-        ArrayList<Integer> integers4 = new ArrayList<>(integers1); // 다른 Collection값으로 초기화
+        //ArrayList<Integer> integers3 = new ArrayList<>(10); -> 초기 용량(Capacity) 설정
+        //ArrayList<Integer> integers4 = new ArrayList<>(integers1); -> 다른 Collection값으로 초기화
         ArrayList<Integer> integers5 = new ArrayList<>(Arrays.asList(5, 4, 3, 2, 1)); // Arrays.asList()
 
         /*
