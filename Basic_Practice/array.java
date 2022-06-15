@@ -11,8 +11,8 @@ public class array {
         ArrayList<Integer> integers5 = new ArrayList<>(Arrays.asList(5, 4, 3, 2, 1)); // Arrays.asList()
 
         /*
-         * 값 추가/수정/삭제
-         */
+            값 추가/수정/삭제
+        */
         // 값 추가
         integers1.add(10);
         integers1.add(20);
@@ -34,8 +34,8 @@ public class array {
         // integers1.clear(); //-> 리스트 전체 삭제
 
         /*
-         * removeAll - 특정 element를 모두 삭제
-         */
+            removeAll - 특정 element를 모두 삭제
+        */
         integers2.add(1);
         integers2.add(1);
         integers2.add(2);
@@ -45,8 +45,8 @@ public class array {
         System.out.println(integers2);
 
         /*
-         * 정렬
-         */
+            정렬
+        */
         System.out.println(integers5);
 
         Collections.sort(integers5); // 오름차순
@@ -56,21 +56,21 @@ public class array {
         System.out.println(integers5);
 
         /*
-         * for Loop
-         */
+            for Loop
+        */
         for (Object obj : integers5) {
             System.out.println(obj);
         }
 
         /*
-         * element 존재 여부 확인
-         */
+            element 존재 여부 확인
+        */
         System.out.println(integers5.contains(3));
         System.out.println(integers5.contains(99));
 
         /*
-         * Array
-         */
+            Array
+        */ 
         int[] arr1 = { 2, 3, 1, 378, 19, 25 };
         Arrays.sort(arr1);
         System.out.println(Arrays.toString(arr1));
