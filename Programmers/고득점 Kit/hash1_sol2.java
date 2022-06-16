@@ -1,5 +1,4 @@
-// 완주하지 못한 선수
-// hash
+// 완주하지 못한 선수 - HashMap
 
 import java.util.*;
 
