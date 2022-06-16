@@ -1,6 +1,4 @@
-
-// 완주하지 못한 선수
-// sort
+// 완주하지 못한 선수 - sort
 
 import java.util.*;
 
