@@ -1,5 +1,16 @@
 import java.util.*;
 
+/*
+Stack<Integer> stack = new Stack<>();  // 스택 선언
+stack.push(1);                         // 값 추가
+stack.pop();                           // 값 제거
+stack.clear();                         // 전체 값 제거 (스택 초기화)
+stack.peek();                          // 가장 상단의 값 출력
+stack.size();                          // 스택의 크기 출력
+stack.empty();                         // 스택이 비어있는지 체크 -> T/F 반환
+stack.contains(1);                     // 스택에 특정 요소가 있는지 체크 -> T/F 반환
+*/
+
 public class stack {
     public static void main(String[] args) {
 
